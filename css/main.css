@@ -1,0 +1,114 @@
+.jumbotron {
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.intro {
+  width: 650px;
+  max-width: 50%;
+  /* max-width 属性用来给元素设置最大宽度值. 定义了max-width的元素会在达到max-width值之后避免进一步按照width属性设置变大. */
+  margin: 25px auto;
+ /* 两侧auto，则平分剩余空间，相当于水平居中。块及元素, 注意width宽度一定要设置，没有宽度的块默认就是100%，就没有auto值了. */
+}
+.intro-title , .article-list-title , .article-title{
+    text-align: center;
+    color: #454545;
+    font-size: 20px;
+}
+.intro-content {
+  text-align: center;
+  line-height: 1.65;
+}
+
+
+.article-img {
+  width: 100%;
+}
+
+.article-desc {
+  text-align: justify;
+  color: #454545;
+  line-height: 1.65;
+}
+.article-link {
+  text-decoration: underline;
+  text-align: left;
+/* 因为太近了，我们想给margin. */
+  display: inline-block;
+  padding: 10px 0;
+  color: #454545;
+}
+
+.article-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.product-list-item img {
+  display: block;
+  max-width: 100%;
+  color: #337ab7;
+}
+
+.product-list-item .title {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.product-list-item .title:hover{
+  text-decoration: none;
+  color: #6bedc8;
+}
+
+.product-list-item .info div{
+  color: #888;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product-list-item {
+  /* 先用margin,然后把margin改成padding,因为border在padding外，margin在border外面。 */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.article .container{
+  width: 45%;
+}
+.article-content img{
+  max-width: 80%;
+  display: block;
+  margin: 10px auto;
+}
+
+.login-page{
+  margin: 80px 50px;
+}
+
+
+.login-page .form-format, .signup-page{
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.form-title, .form-desc{
+text-align: center;
+font-weight: normal;
+}
+.btn-primary {
+color: #363636;
+background-color: #faebdf;
+border-color: #faebdf;
+}
