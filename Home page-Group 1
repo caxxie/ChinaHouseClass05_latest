@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d11dab6f31.js">
+    </script>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+    <title>难民营项目首页</title>
+
+
+  </head>
+
+<body>
+
+  <!--导航栏-->
+
+  <div class="导航栏">
+
+      <nav class="navbar navbar-expand-lg bg-light navbar-light  role="navigation" ">
+        <div class="container">
+                <!-- 疑问：可以有多个container吗-->
+          <a class="offset-1 navbar-brand mr-auto" href="主页.html">
+            <img src="logo.png" alt="Chinahouse logo" width="100">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse-navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item" active ><a class="nav-link" href="Home.html"> <i class="fas fa-home"></i> Home </a></li>
+              <li class="nav-item" ><a class="nav-link" href="Story.html"> Story </a></li>
+              <li class="nav-item" ><a class="nav-link" href="Product.html">  Product </a></li>
+              <li class="nav-item" ><a class="nav-link" href="About.html">About </a></li>
+              <li class="nav-item" ><a class="nav-link" href="Contact.html">Contact </a></li>
+            </ul>
+            <!-- 疑问：前面的并没有靠左-->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item" ><a class="nav-link" href="Login.html"> Login </a></li>
+              <li class="nav-item" ><a class="nav-link" href="Signup.html"> Signup </a></li>
+            </ul>
+          </div>
+        </div>
+       </nav>
+  </div>
+
+
+<!--标语-->
+
+<div class="heading">
+  <h2>Welcome to Chinahouse！</h2>
+</div>
+
+<br>
+
+
+<!--Frontphoto-->
+
+<div class="container">
+          <div class="row">
+                <div class="col col-sm-3" align-items=center >
+                     <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:5px;">
+                </div>
+                  <div class="col  col-sm-3" align-items=center >
+                       <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:5px;">
+                  </div>
+                    <div class="col  col-sm-3" align-items=center >
+                         <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:5px;">
+                    </div>
+                        <div class="col  col-sm-3"  align-items=center >
+                             <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:5px;">
+                        </div>
+           </div>
+
+
+    <br><br>
+          <div class="row">
+                <div class="button col order-md-last">
+                    <button align="center" type="button" class="btn btn-outline-success " data-toggle="button" aria-pressed="false" autocomplete="off">Donate</button>
+                </div>
+          </div>
+
+  </div><br>
+
+
+<!--Exhibition -->
+  <div class="container">
+
+          <div class="row">
+                  <p class="text-success line"> | </p>
+                  <h3 class="heading2">Exhibition of Products</h3>
+          </div>
+
+          <br>
+
+          <div class="row">
+                  <div class="col col-sm-3" align-items=center >
+                       <img src="图片.jpeg" alt="图片" width="275" auto;style="margin:0px;";>
+                       <p class="produtname">Product</p>
+                       <p class="productdes">description</p>
+                  </div>
+                  <div class="col  col-sm-3" align-items=center >
+                       <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:0px;">
+                       <p class="produtname">Product</p>
+                       <p class="productdes">description</p>
+                  </div>
+                  <div class="col  col-sm-3" align-items=center >
+                       <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:0px;">
+                       <p class="produtname">Product</p>
+                       <p class="productdes">description</p>
+                  </div>
+                  <div class="col  col-sm-3"  align-items=center >
+                       <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:0px;">
+                       <p class="produtname">Product</p>
+                       <p class="productdes">description</p>
+                  </div>
+          </div><br><br><br>
+
+    <br>
+</div>
+<!-- 疑问：如何调整背景图透明度，而不影响整体"   -->
+
+<div class="situation " style=" background:url(背景.jpg)no-repeat;background-size:100% 100%; ">
+              <div class="container">
+                <br>
+                                  <div class="row">
+                                          <p class="text-success line"> | </p>
+                                          <h3 class="heading2">Refugee's Situation</h3>
+                                  </div>
+                                        <div class="row">
+
+                                            <div class="col " align-items=center >
+                                                 <img src="图片.jpeg" alt="图片" width="350"  auto;style="margin:5px;">
+                                                 <p class="Titlename">Title</p>
+                                                 <p class="titledes">description</p>
+                                            </div>
+                                            <div class="col  order-md-last" align-items=center >
+                                                 <img src="图片.jpeg" alt="图片" width="350"  auto;style="margin:5px;">
+                                                 <p class="Titlename">Title</p>
+                                                 <p class="titledes">description</p>
+                                            </div>
+                                            <div class="col order-md-last" align-items=center >
+                                                 <img src="图片.jpeg" alt="图片" width="350"  auto;style="margin:5px;">
+                                                 <p class="Titlename">Title</p>
+                                                 <p class="titledes">description</p>
+                                            </div>
+                                       </div>
+                </div>
+  </div>
+
+<!--Aboutus -->
+<br>
+  <div class="container">
+
+          <div class="row">
+                  <p class="text-success line"> | </p>
+                  <h3 class="heading2">About us</h3>
+          </div>
+
+          <br>
+
+          <div class="row">
+                            <div class="ABOUTUSintro col-6">
+                              网站运营方介绍，联系方式等
+                            </div>
+                            <div class="map col col-sm-3"  align-items=center >
+                                 <img src="图片.jpeg" alt="图片" width="150"  auto;style="margin:5px;">
+                                 <p >难民营位置-地图坐标</p>
+                                 <!--如何居右 -->
+                            </div>
+
+        </div>
+</div>
+
+<br>
+
+
+<!--Footer -->
+<div class="Footer bg-secondary">
+
+      <div class="container">
+                                                  <div class="row">
+                                                    <h4 class="heading3" >Welcome to China</h4>
+                                                  </div>
+                                                  <br>
+
+          <div class="row">
+                                                            <div class="邀请 col col-lg-2 col-sm-1"style="color: white">
+                                                              <br>
+                                                              <p>邀请大家加入中南屋</p>
+                                                              <img src="logo.png" alt="logo" width="150px">
+                                                            </div>
+
+
+                                                        <div class="中南屋二维码 col col-lg-2">
+                                                          <img src="图片.jpeg" alt="二维码" width="150">
+                                                          <p>放二维码</p>
+                                                        </div>
+                                          <div style="float:left;margin-top: 30px;width: 1px;height: 200px; background: darkgray;"></div>
+
+                                    <div class="合作方 col " style="color: white">
+                                      <p>合作方</p>
+                                      <p>XXXXXXXXXX</p>
+                                    </div>
+                            <div style="float:left;margin-top: 30px;width: 1px;height: 200px; background: darkgray;"></div>
+
+                      <div class="链接 col " style="color: white">
+                        <p>链接</p>
+                      </div>
+
+
+            </div><br>
+
+
+            <div class="row">
+              <div class="shengming" text-align="conter">
+                  <p>中南屋声明</p> <!--不能居中？ -->
+              </div>
+
+            </div><br>
+
+      </div>
+</div>
+
+
+
+</div>
+  </body>
+</html>
