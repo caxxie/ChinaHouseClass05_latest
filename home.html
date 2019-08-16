@@ -1,99 +1,235 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
-  <title> Company name</title>
-</head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d11dab6f31.js">
+    </script>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+    <title>难民营项目首页</title>
+
+
+  </head>
+
 <body>
-<!-- 先介绍自动生成emmet -->
-<!-- 超大屏幕 -->
-<div class="jumbotron">
-  <h1>难民营手工制品网站</h1>
-  <p>infoinfoinfoinfo</p>
+
+  <!--导航栏-->
+
+  <div class="导航栏">
+
+      <nav class="navbar navbar-expand-lg bg-light navbar-light  role="navigation" ">
+        <div class="container">
+            
+          <a class="offset-1 navbar-brand mr-auto" href="主页.html">
+            <img src="logo.png" alt="Chinahouse logo" width="100">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse-navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item" active ><a class="nav-link" href="Home.html"> <i class="fas fa-home"></i> Home </a></li>
+              <li class="nav-item" ><a class="nav-link" href="Story.html"> Story </a></li>
+              <li class="nav-item" ><a class="nav-link" href="Product.html">  Product </a></li>
+              <li class="nav-item" ><a class="nav-link" href="About.html">About </a></li>
+              <li class="nav-item" ><a class="nav-link" href="Contact.html">Contact </a></li>
+            </ul>
+            <!-- 疑问：前面的并没有靠左-->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item" ><a class="nav-link" href="Login.html"> Login </a></li>
+              <li class="nav-item" ><a class="nav-link" href="Signup.html"> Signup </a></li>
+            </ul>
+          </div>
+        </div>
+       </nav>
+  </div>
+
+
+<!--标语-->
+
+<div class="heading">
+  <h2>Welcome to Chinahouse！</h2>
 </div>
 
-<!-- 响应式导航栏：大屏幕铺开，小屏幕折叠 bg:导航栏颜色 -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<br>
+
+
+<!--Frontphoto-->
+
 <div class="container">
-<!-- 屏幕缩小的导航栏的按钮 -->
-  <button class="navbar-toggler" type="button"  data-toggle="collaspe" data-target="#Navbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <a class="navbar-brand"href="home.html">
-    <img src="https://dummyimage.com/80x40/8cded7/c6e861.png&text=Logo" alt="LOGO">
-  </a>
-
-  <div class="collapse navbar-collapse" id="Navbar">
-    <ul class="navbar-nav mr-auto">
-      <!-- 向右推进之后的所有元素 -->
-      <li class="nav-item active"> <a class="nav-link" href="product.html">SHOP</a></li>
-      <li class="nav-item "> <a class="nav-link"href="article.html">STORY</a></li>
-      <li class="nav-item "> <a class="nav-link"href="#">ABOUT</a></li>
-      <li class="nav-item "> <a class="nav-link"href="#">CONTACT</a></li>
-    </ul>
-
-    <ul class="navbar-nav ">
-      <li class="nav-item"><a class= "nav-link" href="login.html">LOGIN</a></li>
-      <li class="nav-item"><a class= "nav-link" href="signup.html">SIGNUP</a></li>
-    </ul>
-  </div>
-</div>
-</nav>
-
-<!-- 响应式图片，默认： max-width:100%, heightLauto, display:block; 改写，占整宽 -->
-<img class="img-responsive" src="image/pic.jpg" alt="PIC">
-
-<div class="intro">
-  <p class="intro-title">SHOP AMANI. SPREAD PEACE.</p>
-  <p class="intro-content">Our name, Amani ya Juu, is a Swahili saying which means “Peace from Above." We are a social economic enterprise committed to peace and reconciliation for women from many African nations and cultures. We use beautiful African materials to create high quality fair trade home goods and accessories. Through our faith in God who provides a transcendent peace, we heal from the past. Together we grow in dignity and respect for one another.</p>
-</div>
-<hr>
+          <div class="row">
+                <div class="col col-sm-3" align-items=center >
+                     <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:5px;">
+                </div>
+                  <div class="col  col-sm-3" align-items=center >
+                       <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:5px;">
+                  </div>
+                    <div class="col  col-sm-3" align-items=center >
+                         <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:5px;">
+                    </div>
+                        <div class="col  col-sm-3"  align-items=center >
+                             <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:5px;">
+                        </div>
+           </div>
 
 
-<!-- 文章部分： -->
-<div class="article-list">
+    <br><br>
+          <div class="row">
+                <div class="button col order-md-last">
+                    <button align="center" type="button" class="btn btn-outline-success " data-toggle="button" aria-pressed="false" autocomplete="off">Donate</button>
+                </div>
+          </div>
+
+  </div><br>
+
+
+<!--Exhibition -->
   <div class="container">
-    <p class="article-list-title">ARTICLE LIST</p>
-    <div class="row">
 
-      <div class="col col-lg-4">
-        <a href="#">
-          <img class="article-img"src="https://dummyimage.com/600x400/91aac2/537548.png&text=ARTICLE+1" alt="1">
-        </a>
-        <div class="article-title">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
-        <div class="article-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <a href="#" class="article-link">Read more</a>
-      </div>
+          <div class="row">
+                  <p class="text-success line"> | </p>
+                  <h3 class="heading2">Exhibition of Products</h3>
+          </div>
 
-      <div class="col col-lg-4">
-        <a href="#">
-          <img class="article-img"src="https://dummyimage.com/600x400/91aac2/537548.png&text=ARTICLE+1" alt="1">
-        </a>
-        <div class="article-title">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
-        <div class="article-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <a href="#" class="article-link">Read more</a>
-      </div>
+          <br>
 
-      <div class="col col-lg-4">
-        <a href="#">
-          <img class="article-img"src="https://dummyimage.com/600x400/91aac2/537548.png&text=ARTICLE+1" alt="1">
-        </a>
-        <div class="article-title">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
-        <div class="article-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <a href="#" class="article-link">Read more</a>
-      </div>
-    </div>
+          <div class="row">
+                  <div class="col col-sm-3" align-items=center >
+                       <img src="图片.jpeg" alt="图片" width="275" auto;style="margin:0px;";>
+                       <p class="produtname">Product</p>
+                       <p class="productdes">description</p>
+                  </div>
+                  <div class="col  col-sm-3" align-items=center >
+                       <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:0px;">
+                       <p class="produtname">Product</p>
+                       <p class="productdes">description</p>
+                  </div>
+                  <div class="col  col-sm-3" align-items=center >
+                       <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:0px;">
+                       <p class="produtname">Product</p>
+                       <p class="productdes">description</p>
+                  </div>
+                  <div class="col  col-sm-3"  align-items=center >
+                       <img src="图片.jpeg" alt="图片" width="275"  auto;style="margin:0px;">
+                       <p class="produtname">Product</p>
+                       <p class="productdes">description</p>
+                  </div>
+          </div><br><br><br>
+
+    <br>
+</div>
+<!-- 疑问：如何调整背景图透明度，而不影响整体"   -->
+
+<div class="situation " style=" background:url(背景.jpg)no-repeat;background-size:100% 100%; ">
+              <div class="container">
+                <br>
+                                  <div class="row">
+                                          <p class="text-success line"> | </p>
+                                          <h3 class="heading2">Refugee's Situation</h3>
+                                  </div>
+                                        <div class="row">
+
+                                            <div class="col " align-items=center >
+                                                 <img src="图片.jpeg" alt="图片" width="350"  auto;style="margin:5px;">
+                                                 <p class="Titlename">Title</p>
+                                                 <p class="titledes">description</p>
+                                            </div>
+                                            <div class="col  order-md-last" align-items=center >
+                                                 <img src="图片.jpeg" alt="图片" width="350"  auto;style="margin:5px;">
+                                                 <p class="Titlename">Title</p>
+                                                 <p class="titledes">description</p>
+                                            </div>
+                                            <div class="col order-md-last" align-items=center >
+                                                 <img src="图片.jpeg" alt="图片" width="350"  auto;style="margin:5px;">
+                                                 <p class="Titlename">Title</p>
+                                                 <p class="titledes">description</p>
+                                            </div>
+                                       </div>
+                </div>
   </div>
+
+<!--Aboutus -->
+<br>
+  <div class="container">
+
+          <div class="row">
+                  <p class="text-success line"> | </p>
+                  <h3 class="heading2">About us</h3>
+          </div>
+
+          <br>
+
+          <div class="row">
+                            <div class="ABOUTUSintro col-6">
+                              网站运营方介绍，联系方式等
+                            </div>
+                            <div class="map col col-sm-3"  align-items=center >
+                                 <img src="图片.jpeg" alt="图片" width="150"  auto;style="margin:5px;">
+                                 <p >难民营位置-地图坐标</p>
+                                 <!--如何居右 -->
+                            </div>
+
+        </div>
 </div>
 
-<div class="jumbotron">
-  <p>footer</p>
+<br>
+
+
+<!--Footer -->
+<div class="Footer bg-secondary">
+
+      <div class="container">
+                                                  <div class="row">
+                                                    <h4 class="heading3" >Welcome to China</h4>
+                                                  </div>
+                                                  <br>
+
+          <div class="row">
+                                                            <div class="邀请 col col-lg-2 col-sm-1"style="color: white">
+                                                              <br>
+                                                              <p>邀请大家加入中南屋</p>
+                                                              <img src="logo.png" alt="logo" width="150px">
+                                                            </div>
+
+
+                                                        <div class="中南屋二维码 col col-lg-2">
+                                                          <img src="图片.jpeg" alt="二维码" width="150">
+                                                          <p>放二维码</p>
+                                                        </div>
+                                          <div style="float:left;margin-top: 30px;width: 1px;height: 200px; background: darkgray;"></div>
+
+                                    <div class="合作方 col " style="color: white">
+                                      <p>合作方</p>
+                                      <p>XXXXXXXXXX</p>
+                                    </div>
+                            <div style="float:left;margin-top: 30px;width: 1px;height: 200px; background: darkgray;"></div>
+
+                      <div class="链接 col " style="color: white">
+                        <p>链接</p>
+                      </div>
+
+
+            </div><br>
+
+
+            <div class="row">
+              <div class="shengming" text-align="conter">
+                  <p>中南屋声明</p> <!--不能居中？ -->
+              </div>
+
+            </div><br>
+
+      </div>
 </div>
 
-</body>
+
+
+</div>
+  </body>
 </html>
