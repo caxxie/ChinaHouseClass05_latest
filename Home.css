@@ -1,0 +1,72 @@
+.heading{
+font-display:block;
+font-family:inherit;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.5);
+color: black;
+padding-left: 80px;
+
+}
+
+.button{
+
+text-align: center;
+
+}
+.heading2{
+font-display:block;
+font-family:lato;
+padding: 20px;
+color: black;
+
+}
+
+.line{
+font-size: 40px;
+margin-left: 10px;
+font-weight: bold;
+
+}
+
+.produtname{
+padding-top: 8px;
+font-weight: bold;
+}
+
+.Titlename{
+  padding-top: 8px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.productdes{
+
+}
+
+.titledes{
+  color: white;
+
+}
+
+.heading3{
+color: white;
+padding-top: 30px;
+}
+
+.footerline{
+height=100;
+width=1;
+
+}
+
+.shengming
+{
+color: white;
+text-align: center;
+
+}
+
+.map{
+
+}
